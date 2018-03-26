@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         <h1> Sentiment Key to User Prediction</h1>
+      </title>
+   </head>
+   <body>
+      <p >
+      <h1>
+         <center> Sentiment Key to User Identification </center>
+      </h1>
+      </p>
+      <link rel="stylesheet" type="text/css" href="..\static\styles\common.css">
+      <div class="container">
+         <form method="post" name="itemdata" action="/RegisterUser/">
+            <div class="row">
+               <div class="col-25">
+                  <label for="fname">User Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="User name..">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="subject">Enter something that you are thinking the very moment:</label>
+               </div>
+               <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+               </div>
+            </div>
+            <div class="row">
+               <input type="submit" value="Submit">
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
